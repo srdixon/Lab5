@@ -55,3 +55,8 @@ Peru$long = lon
 Peru$lat  = lat
 
 head(Peru)
+
+#EXPORT CLEANED DATASETS
+write.csv(Alaska, file = "Alaska_clean.csv")
+write.csv(GOM,    file = "GOM_clean.csv")
+write.csv(Peru,   file = "Peru_clean.csv")
